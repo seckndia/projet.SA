@@ -1,0 +1,75 @@
+body{
+    background-image: url("hotel.png");
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+
+#titre{
+    text-align: center;
+    position:fixed;
+    top:150px;
+     width:100%;
+     height:500px; 
+     z-index:2;
+     font-size:320%;
+     color:whitesmoke;
+    
+}
+ul li a img{
+    width: 50px;
+    height: 25px;
+}
+li a:hover { 
+    color: blue;
+}
+ ul li ul{
+   display: none;
+}
+ ul li:hover ul{
+   display: block;
+}
+li:hover ul li{
+   float: none;
+}
+li ul{
+    position: absolute;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    /*float: left;*/
+
+}
+li{
+    margin-left: 10px;
+    float: left;
+
+}
+ul li a{
+    display: block;
+    /*float: left;*/
+    width: 200px;
+    background-color: skyblue;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid ;
+    border-radius: 5px;
+    border-color: #DCDCDC #696969 #696969 #DCDCDC;
+
+}
+ul li a:hover{
+    background-color: #D3D3D3;
+    border-color: #696969 #DCDCDC #DCDCDC #696969;
+
+}
+MARQUEE IMG{
+    height: 200px;
+width: 500px;
+top: 10px;
+box-shadow: 3px 3px 3px 3px blue ;
+
+}
